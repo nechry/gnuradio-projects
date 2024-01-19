@@ -3,6 +3,7 @@
 Credits: [Sniffing nRF24 with GNU Radio and HackRF](https://www.bitcraze.io/documentation/tutorials/hackrf-nrf/)
 
 Clone and make the NRF24-BTLE-Decoder program from [Github](https://github.com/omriiluz/NRF24-BTLE-Decoder)
+
 ```bash
 git clone https://github.com/omriiluz/NRF24-BTLE-Decoder
 cd NRF24-BTLE-Decoder
@@ -16,4 +17,3 @@ The nrf24-btle-decoder software is designed to get sample at 2Msps via the stand
 mkfifo /tmp/fifo
 cat /tmp/fifo | ./nrf24-btle-decoder -d 1
 ```
-
