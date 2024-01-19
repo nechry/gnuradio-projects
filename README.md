@@ -16,6 +16,10 @@ nRF24 demodulator to sniff BLEA packets.
 
 A simple PMR446 receiver with a channels selection.
 
+### [Intercepting Airport and Aircraft Communication](./airplane_comms/)
+
+Use software defined radio to intercept aircraft communication.
+
 ## Requirements
 
 - [GNU Radio](https://www.gnuradio.org/)
